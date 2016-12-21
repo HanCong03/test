@@ -11,7 +11,7 @@ process.on('unhandledRejection', (reason, promise) => {
 });
 
 process.on('uncaughtException', function (err) {
-    console.error(err.message, err.stack);
+    console.error(err.message, err.stack)
     process.exit(127);
 });
 
