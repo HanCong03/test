@@ -7,7 +7,7 @@
 
 process.on('unhandledRejection', (reason, promise) => {
     console.error(reason.message, reason.stack || reason);
-    process.exit(127);
+    process.exit(127)
 });
 
 process.on('uncaughtException', function (err) {
