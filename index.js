@@ -30,7 +30,8 @@ if (process.env.CMIS_DEV_MODE) {
 
 
 
-let {buil, watch, release, releaseTest, start, stop, exit, restart, list, createPage} = providor;
+let {buil, watch, release, releaseTest, start, stop, exit, restart, list, createPage} = providor; 
+
 
 let a = 3;
 
