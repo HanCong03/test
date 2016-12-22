@@ -28,7 +28,9 @@ if (process.env.CMIS_DEV_MODE) {
     providor = require('./src');
 }
 
-let {build, watch, release, releaseTest, start, stop, exit, restart, list, createPage} = providor;
+
+let {buil, watch, release, releaseTest, start, stop, exit, restart, list, createPage} = providor;
+let a = 3;
 
 switch (process.argv[2]) {
     // case 'init':
