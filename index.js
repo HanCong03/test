@@ -21,6 +21,9 @@ import path from 'path';
 
 var program = require('commander');
 var providor;
+var a;
+var b;
+var c;
 
 if (process.env.CMIS_DEV_MODE) {
     providor = require('./es')
